@@ -150,3 +150,8 @@ h2.secondHead{
     justify-content: center;
     align-items: center;
 }
+
+
+@media only screen and (max-width:375px){
+    
+}
