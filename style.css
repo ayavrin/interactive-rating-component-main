@@ -84,7 +84,14 @@ p{
     color: hsl(216, 12%, 8%);
 }
 .btn:active{
+    color: hsl(216, 12%, 8%);
     background-color: hsl(25, 97%, 53%);
+    
+}
+.forClicked{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+
 }
 .submit{
    margin-top: 1.5rem;
@@ -153,5 +160,104 @@ h2.secondHead{
 
 
 @media only screen and (max-width:375px){
+    .container{
+        width: 90vw;
+        height: 55vh;
+        background-color: var(--containercolor);
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.second_container{
+        width: 90%;
+        height: 90%;
+    }
+    .hide{
+        display: none;
+    }
+    .show{
+        width:90vw;
+        height:55vh;
+        background-color: var(--containercolor);
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .forClicked{
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(216, 12%, 8%);
     
+    }
+    
+
+}
+@media only screen and (min-width:376px) and (max-width:480px){
+    .container{
+        width: 70vw;
+        height: 55vh;
+        background-color: var(--containercolor);
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.second_container{
+        width: 90%;
+        height: 90%;
+    }
+    .hide{
+        display: none;
+    }
+    .show{
+        width:70vw;
+        height: 55vh;
+        background-color: var(--containercolor);
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .forClicked{
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(216, 12%, 8%);
+    
+    }
+    
+    /*  */
+}
+@media only screen and (min-width:481px) and (max-width:785px){
+    .container{
+        width: 50vw;
+        height: 60vh;
+        background-color: var(--containercolor);
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.second_container{
+        width: 80%;
+        height: 80%;
+    }
+    .hide{
+        display: none;
+    }
+    .show{
+        width:50vw;
+        height: 60vh;
+        background-color: var(--containercolor);
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .forClicked{
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(216, 12%, 8%);
+    
+    }
+    
+    /*  */
 }

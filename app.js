@@ -5,6 +5,7 @@ let index;
 ratingNumber.forEach((e,i,a)=>{
     e.addEventListener("click",
             function(){
+                e.classList.add("forClicked");
                 checkClick=true;
                 index=i;
             }
