@@ -14,15 +14,13 @@ ratingNumber.forEach((e,i,a)=>{
 
 })
 
-
-
-
 submit.addEventListener("click",
     function(event){
         event.preventDefault();
         check();
     }
 )
+
 function check(){
     console.log(checkClick);
     if(checkClick){
